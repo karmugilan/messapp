@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>profile page</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <style>
+   #content
+{ 
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 5em;
+}
+body{
+    background: url("https://images.unsplash.com/photo-1441648642765-b0db80c68ea3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e725cd89ad044c9b7823f229fba8539e&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    background-position: center; 
+}
+  </style>  
+
+</head>
+    <body>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      </div>
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                          <li class="active">
+                          <li> <a href="/" class="item"><i class="fas fa-home"></i>Home</a></li>
+                          <li><a href="/newcontact" class="item"><i class="far fa-address-book"></i> Add Contacts</a></li>
+                          <li><a href="/group" class="item"><i class="fas fa-users">Group message</i></a></li>
+                          <li><a href="/viewcontacts" class="item"><i class="fas fa-users">View contacts</i></a></li>
+                            </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="/logout" class="item"><i class="fas fa-sign-out-alt">logout</i></a></li>
+                          <li class="navbar-text"><span class="label label-primary">Signed in as <%=user.username%></span> </li>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+          </div>
+        </div>                           
+<div class="container">
+    <div class="row">
+        <div id="content">
+           <div class="col-lg-12">
+             <hr>
+            <h1>Messaging App</h1>
+            <h3>Start your conversation here!!!</h3>
+            <hr>
+            <button type="button" class="btn btn-default"><a href="/message"><i class="fab fa-facebook-messenger">Message</i></a></button>
+          
+        </div>   
+      </div>
+    </div>        
+</div> 
+</body>
+</html>
+
+
+
+            
+                  
+

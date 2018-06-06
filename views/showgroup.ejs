@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Groups</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    <body>
+        <% for(i=0;i<user.groups.length; i++){ %>
+        <h2><%= user.groups[i].group_name %></h2>
+        <% } %> 
+        <a href="/profile"><button class="btn btn-success">Back</button></a>        
+    </body>
+</html>

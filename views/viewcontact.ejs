@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Contacts</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1><u><i>Contacts Details</i></u></h1>
+        <% for(i=0;i<user.contacts.length; i++){ %>
+        <h2>Contact Name  :<%= user.contacts[i].contactname %></h2>
+        <h2>Contact Number  :<%= user.contacts[i].contactnumber %></h2>
+        <% } %>
+
+        <a href="/message"><button class="btn btn-success">Sendmessage</button></a>
+            
+    </body>
+</html>
